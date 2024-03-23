@@ -12,6 +12,7 @@ public class SetTest {
     void set() {
 
         SequencedSet<String> set = new TreeSet<>();
+        //set akan selalu diurutkan;
         set.add("Hanif");
         set.add("Faiz");
         set.add("Hidayat");
